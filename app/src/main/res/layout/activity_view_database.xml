@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViewDatabase">
+
+    <TextView
+        android:id="@+id/text_view_view_database_content"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:text="view database content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:id="@+id/list_view_for_database_content"
+        android:layout_width="match_parent"
+        android:layout_height="178dp">
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/show_item"
+        android:text="hello"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
